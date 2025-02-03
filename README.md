@@ -61,6 +61,11 @@ GND: Connect to the GND pin on the ESP8266 (through a pull-down resistor if nece
 4. Monitor sensor readings on the OLED display.
 5. If temperature exceeds **50°C** or humidity exceeds **75%**, an alarm is triggered.
 
+## Images
+[Setup](https://github.com/smgoesonline/Portable-Weather-Monitor/blob/main/Portable-Weather-Monitor-image-setup.jpg)
+[Setup in Action](https://github.com/smgoesonline/Portable-Weather-Monitor/blob/main/Portable-Weather-Monitor-image-working.jpg)
+[Console Output](https://github.com/smgoesonline/Portable-Weather-Monitor/blob/main/Portable-Weather-Monitor-image-console.jpg)
+
 ## Usage
 - The system continuously monitors temperature, humidity, and light levels.
 - When critical thresholds are reached, visual and sound alerts are activated.
