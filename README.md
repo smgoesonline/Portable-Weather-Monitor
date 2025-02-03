@@ -1,4 +1,5 @@
 # Portable Weather Parameters Monitor with Alarm
+# It is to note that the ESP8266 in the project can also be replaced by any Arduino IDE compatible board, provided it can provide adequate number of Digital and Analog pins as required by the project. The temperature, humidity and light level threshold can also be edited provided that they are in the confines of the limitations of the sensors used.
 
 ## Project Overview
 This project is a portable weather monitoring system using an ESP8266 microcontroller. It collects temperature, humidity, and light intensity data and triggers an alarm when predefined thresholds are exceeded.
@@ -20,6 +21,9 @@ This project is a portable weather monitoring system using an ESP8266 microcontr
   - `Adafruit_SSD1306.h`
   - `Adafruit_Sensor.h`
   - `DHT.h`
+ - Also requires installation of ESP8266 family of boards, from Espressif Systems.
+ - User can add the below to the "Additional Boards Manager URLs" in the Preferences section by pressing Ctrl + , on the keyboard.
+ - https://espressif.github.io/arduino-esp32/package_esp32_index.json
  
 ## Circuit Connection Description for Weather Monitor (ESP8266)
 DHT11 Temperature and Humidity Sensor
