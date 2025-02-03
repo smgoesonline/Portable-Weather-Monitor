@@ -22,7 +22,7 @@ This project is a portable weather monitoring system using an ESP8266 microcontr
   - `Adafruit_Sensor.h`
   - `DHT.h`
  - Also requires installation of ESP8266 family of boards, from Espressif Systems.
- - User can add the below to the "Additional Boards Manager URLs" in the Preferences section by pressing Ctrl + , on the keyboard.
+ - User can add the below link to the "Additional Boards Manager URLs" in the Preferences section by pressing Ctrl + , on the keyboard.
  - https://espressif.github.io/arduino-esp32/package_esp32_index.json
  
 ## Circuit Connection Description for Weather Monitor (ESP8266)
