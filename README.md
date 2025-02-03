@@ -59,7 +59,7 @@ GND: Connect to the GND pin on the ESP8266 (through a pull-down resistor if nece
 2. Connect the hardware as per the pin diagram.
 3. Upload the provided `main.ino` file to the ESP8266.
 4. Monitor sensor readings on the OLED display.
-5. If temperature exceeds **50°C** or humidity exceeds **75%**, an alarm is triggered.
+5. If temperature exceeds **50°C** or humidity exceeds **75%**, an alarm is triggered. (the values are completely customisable upto the confines of the sensors)
 
 ## Images
  - [Setup](https://github.com/smgoesonline/Portable-Weather-Monitor/blob/main/Portable-Weather-Monitor-image-setup.jpg)
