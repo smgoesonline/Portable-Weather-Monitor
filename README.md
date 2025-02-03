@@ -20,13 +20,39 @@ This project is a portable weather monitoring system using an ESP8266 microcontr
   - `Adafruit_SSD1306.h`
   - `Adafruit_Sensor.h`
   - `DHT.h`
+ 
+## Circuit Connection Description for Weather Monitor (ESP8266)
+DHT11 Temperature and Humidity Sensor
+VCC: Connect to 3.3V pin on the ESP8266.
+GND: Connect to the GND pin on the ESP8266.
+DATA: Connect to D6 (GPIO12) pin on the ESP8266.
 
-## Circuit Diagram
-(Include or link to a circuit diagram if available)
+OLED Display (SSD1306)
+VCC: Connect to 3.3V pin on the ESP8266.
+GND: Connect to the GND pin on the ESP8266.
+SDA: Connect to D2 (GPIO4) pin on the ESP8266.
+SCL: Connect to D1 (GPIO5) pin on the ESP8266.
+
+Buzzer
+Positive (long leg): Connect to D7 (GPIO13) pin on the ESP8266.
+Negative (short leg): Connect to the GND pin on the ESP8266.
+
+Temperature LED
+Anode (long leg): Connect to D4 (GPIO2) pin on the ESP8266.
+Cathode (short leg): Connect to the GND pin on the ESP8266.
+
+Humidity LED
+Anode (long leg): Connect to D3 (GPIO0) pin on the ESP8266.
+Cathode (short leg): Connect to the GND pin on the ESP8266.
+
+LDR (Light Dependent Resistor)
+One leg: Connect to A0 (Analog pin) on the ESP8266.
+Other leg: Connect to the 3.3V pin on the ESP8266.
+GND: Connect to the GND pin on the ESP8266 (through a pull-down resistor if necessary).
 
 ## Installation and Setup
 1. Install **Arduino IDE** and add the required libraries.
-2. Connect the hardware as per the circuit diagram.
+2. Connect the hardware as per the pin diagram.
 3. Upload the provided `main.ino` file to the ESP8266.
 4. Monitor sensor readings on the OLED display.
 5. If temperature exceeds **50°C** or humidity exceeds **75%**, an alarm is triggered.
